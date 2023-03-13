@@ -1,0 +1,38 @@
+body{
+    background-color: rgb( 80, 200, 120);
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px lightgreen;
+}
+.note{
+    font-size: 15px;
+    color: #000000;
+}
+.copy_right_footer{
+    position: fixed;
+    color: red;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine ;
+    line-height: 3;
+    text-align: center;
+    font-size: medium;
+    box-shadow: 10px 10px 10px 15px lightgreen;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: name;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes name{
+    from{box-shadow: 17.5px 17.5px 17.5px seagreen;}
+    to{box-shadow: 17.5px 17.5px 17.5px  rgb(84, 84, 255);}
+}
+video{
+    margin-left: 100px;
+}
